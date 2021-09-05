@@ -275,6 +275,7 @@ body {
 }
 
 .site-footer-socials a {
+  display: block;
   color: #252420;
 }
 
@@ -284,6 +285,10 @@ body {
 
 .site-footer-socials a:active {
   opacity: 0.6;
+}
+
+.site-footer-socials svg {
+  display: block;
 }
 
 .site-footer-divider {
