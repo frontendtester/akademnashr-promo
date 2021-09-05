@@ -12,6 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
   <!-- Styles -->
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -26,10 +27,10 @@
       <!-- SITENAV -->
       <nav>
         <ul class="sitenav-list">
-          <li><a class="sitenav-link" href="#">Bosh sahifa</a></li>
-          <li><a class="sitenav-link" href="#">Kitoblar</a></li>
-          <li><a class="sitenav-link" href="#">Aksiyalar</a></li>
-          <li><a class="sitenav-link" href="#">Kontaktlar</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Bosh sahifa</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Kitoblar</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Aksiyalar</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Kontaktlar</a></li>
         </ul>
       </nav>
 
@@ -87,8 +88,10 @@
     <section class="promo">
       <div class="promo-content">
         <h2 class="promo-heading">Bolalar kitoblari uchun ajoyib aksiya!</h2>
-        <p class="promo-text">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
-        <p class="promo-text">Aksiyadagi eng katta to’plamda <strong class="promo-highlight">50 ta kitob</strong>ni <strong class="promo-highlight">350 ming</strong> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
+        <div class="promo-info-wrapper">
+          <p class="promo-text">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
+          <p class="promo-text">Aksiyadagi eng katta to’plamda <strong class="promo-highlight">50 ta kitob</strong>ni <strong class="promo-highlight">350 ming</strong> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
+        </div>
         <a class="main-link" href="#">Buyurtma berish</a>
       </div>
 
